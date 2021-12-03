@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.bg_img_div {
+  background-image: url("https://images.pexels.com/photos/204366/pexels-photo-204366.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.main_content {
+  left: 50%;
+  position: absolute;
+  top: 45%;
+  transform: translate(-50%, -55%);
+  text-align: center;
+}
+.main_content h1 {
+  color: white;
+}
+.main_content p {
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+.contact_page_bg_pic {
+  background-image: url("https://mdbootstrap.com/img/Photos/Others/images/90.jpg");
+  height: 630px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.ul_md_pills .nav-link.active {
+  background-color: #3f51b5;
+  color: white;
+}
+
+.p_md_pills .nav-link.active {
+  color: #fff;
+  background-color: #3f51b5;
+}
+button.close {
+  position: absolute;
+  right: 0;
+  z-index: 2;
+  padding-right: 1rem;
+  padding-top: .6rem;
+}
+
+    
